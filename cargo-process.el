@@ -19,29 +19,6 @@
 ;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ;;; Commentary:
-
-;; Cargo Process Major mode.
-;; Used to run Cargo background processes.
-;; Current supported Cargo functions:
-;;  * cargo-process-bench              - Run the benchmarks.
-;;  * cargo-process-build              - Compile the current project.
-;;  * cargo-process-clean              - Remove the target directory.
-;;  * cargo-process-doc                - Build this project's and its dependencies' documentation.
-;;  * cargo-process-new                - Create a new cargo project.
-;;  * cargo-process-init               - Create a new cargo project inside an existing directory.
-;;  * cargo-process-run                - Build and execute src/main.rs.
-;;  * cargo-process-run-example        - Build and execute with --example <name>.
-;;  * cargo-process-search             - Search registry for crates.
-;;  * cargo-process-test               - Run all unit tests.
-;;  * cargo-process-update             - Update dependencies listed in Cargo.lock.
-;;  * cargo-process-repeat             - Run the last cargo-process command.
-;;  * cargo-process-current-test       - Run the current unit test.
-;;  * cargo-process-current-file-tests - Run the current file unit tests.
-;;  * cargo-process-fmt                - Run the optional cargo command fmt.
-;;  * cargo-process-check              - Run the optional cargo command check.
-;;  * cargo-process-clippy             - Run the optional cargo command clippy.
-
-;;
 ;;; Code:
 
 (require 'compile)
