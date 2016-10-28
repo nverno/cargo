@@ -207,6 +207,7 @@ Cargo: Build this project's and its dependencies' documentation."
   (interactive)
   (cargo-process--start "Doc" "cargo doc"))
 
+;;;###autoload
 (defun cargo-process-new (name &optional bin)
   "Run the Cargo new command.
 With the prefix argument, modify the command's invocation.
