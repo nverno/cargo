@@ -23,7 +23,8 @@
 ;;; Commentary:
 ;;; Code:
 (eval-when-compile
-  (require 'cl-lib))
+  (require 'cl-lib)
+  (defvar cargo-minor-mode-map))
 (require 'cargo-process)
 
 (defgroup cargo nil
